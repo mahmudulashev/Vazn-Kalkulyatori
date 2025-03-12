@@ -1,0 +1,165 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cff6fb; 
+} 
+
+.container {
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+/* Header Qismi */
+
+header {
+    background-color: #046e86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+/* Markaziy Qism */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.wrapper {
+    height: 430px;
+    width: 330px;
+    background-color:#25A18E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px rgb(179, 177, 177);
+}
+
+h2 {
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    text-transform: uppercase;
+    margin: 1.2rem 0;
+    font-size: 30px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#input1 {
+    margin-top: 1rem;
+}
+
+label {
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+button {
+    background-color: rgb(7, 181, 255);
+    padding: 12px 33px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(18, 18, 91);
+}
+
+p {
+    background-color: #c5f4d3;
+    width: 290px;
+    padding: 10px 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 600;
+    color:rgb(28, 28, 28);
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+
+#matn1 {
+    margin-top: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #113c64;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.foot-wrapper {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.ikonka {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/* Telefon uchun */
+
+@media (max-width: 750px) {
+    h4 {
+        font-size: 15px;
+    }
+
+    .foot-wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+} 
+
+
+
+
