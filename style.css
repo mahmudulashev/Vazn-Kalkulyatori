@@ -57,6 +57,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-radius: 5px;
     box-shadow: 1px 10px 10px rgb(179, 177, 177);
 }
