@@ -51,8 +51,8 @@ main {
 }
 
 .wrapper {
-    height: 430px;
-    width: 330px;
+    height: 27rem;
+    width: 21rem;
     background-color:#25A18E;
     display: flex;
     flex-direction: column;
